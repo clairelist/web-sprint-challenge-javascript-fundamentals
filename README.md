@@ -25,6 +25,12 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+    .map will create a new array after having performed a passed function to that array. An use would be needing to do math to a large set of numbers.
+    
+    .reduce will run a user-defined 'reducer' or 'accumulator' function on an array. A good use for .reduce would be to sum a series of nums in an array.
+
+    .filter will return an array from another array given the defined 'filter' ie all elements which match a certain string. An example would be cribbing an array
+    for specific points of data, as in 'people born within a certain timeframe'.
 
 2. Explain the difference between a callback and a higher order function.
 

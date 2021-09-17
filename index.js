@@ -63,11 +63,17 @@ const zooAnimals = [
 let displayNames=[];
 
   function animalNames(array){
-//     array.forEach(array.animal_name=>displayNames.push(animal_name));
-//  return displayNames;
+    for (let i=0; i<array.length; i++){
+      displayNames.push(`name: ${array[i].animal_name}, scientific: ${array[i].scientific_name}`);
+      
+      //I understand this is not as elegant as using the forEach() method -- but I need to study array methods more clearly.
+    }
+    return displayNames;
   }
 
- // console.log(animalNames(zooAnimals)); 
+//console.log(zooAnimals[0].animal_name); //reminding myself how to access items inside an array, lol.
+
+  //console.log(animalNames(zooAnimals)); 
  //
   
 

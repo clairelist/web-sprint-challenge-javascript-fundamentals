@@ -63,8 +63,8 @@ const zooAnimals = [
 let displayNames=[];
 
   function animalNames(array){
-    array.split();
- 
+//     array.forEach(array.animal_name=>displayNames.push(animal_name));
+//  return displayNames;
   }
 
  // console.log(animalNames(zooAnimals)); 
@@ -79,7 +79,7 @@ let displayNames=[];
 
  
   function lowerCaseNames(array){
-   
+   return array.map(array.animal_name.toLowerCase());
   }
   
   

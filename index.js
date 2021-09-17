@@ -120,8 +120,13 @@ let lowercase=[];
   */
 
   function USApop(array){
-    return array.population.reduce(array,0,this);
+    for (let i=0; i<array.length; i++){
+      array[i].population.reduce(array[i].population,0,i);
+    }
+     return array.population.reduce(array,0);
+    
   }
+  //gotta figure this one out....
   
   
   // 🦁🦁🦁 Callbacks 🦁🦁🦁  
